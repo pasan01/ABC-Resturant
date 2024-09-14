@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import logo from "../assets/images/logo.png";
 
+
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: '#535250', padding: '1rem 2rem', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
