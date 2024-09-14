@@ -7,6 +7,7 @@ import { deleteOffer } from "../api/offerApi";
 import { deleteService } from "../api/serviceApi";
 import { deleteCategory } from "../api/categoryApi";
 
+
 const ItemCardGrid = () => {
   const { getValue, setValue } = useContext(UniversalContext);
   const [currentPage, setCurrentPage] = useState(1);
