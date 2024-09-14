@@ -8,6 +8,8 @@ import Alert from "../components/Alert";
 import { UniversalContext } from '../context/UniversalContext';
 import { barrier } from "../middleware/securityMiddleware";
 
+
+
 const EmailVerification = () => {
   const { setValue } = useContext(UniversalContext);
   const navigate = useNavigate();
