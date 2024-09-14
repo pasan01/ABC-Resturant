@@ -13,6 +13,7 @@ const DashboardCheckout = () => {
     zip: '',
   });
   const [paymentMethod, setPaymentMethod] = useState(null);
+  
 
   const navigateToDashboard = () => {
     navigate("/dashboard", { replace: true });
