@@ -11,6 +11,8 @@ import { UniversalContext } from '../context/UniversalContext';
 import { barrier } from "../middleware/securityMiddleware";
 import useItemsFetch from "../hooks/useItemsFetch";
 
+
+
 // Styled Navbar
 const StyledNavbar = styled(Navbar)`
   position: relative;
