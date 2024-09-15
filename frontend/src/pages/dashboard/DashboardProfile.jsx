@@ -3,6 +3,7 @@ import EditProfile from "../../components/EditProfile";
 import ProfileSummaryCard from "../../components/ProfileSummaryCard";
 import { UniversalContext } from '../../context/UniversalContext';
 
+
 const DashboardIndex = () => {
   const { getValue } = useContext(UniversalContext);
   const isEditing = getValue('profileEdit');
